@@ -1,4 +1,5 @@
-# FZZG@WILDRE-7 Sentiment Analysis for Code-switched Data
+# FZZG@WILDRE-7 Sentiment Analysis for Code-mixed Data
+### This repository contain code to train the SA model in code-mixed setting for shared task at WILDRE-7
 
 ## Code
 - Convert the dataset into Alpaca dataset format using prepare.py
