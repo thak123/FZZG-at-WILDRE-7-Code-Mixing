@@ -85,7 +85,7 @@ use_additional = True #"additional"
 
 # TODO: fix the file path to train, validation, test
 df_train = pd.read_csv("data/train.csv")
-df_validation = pd.read_csv("data/validation.csv")
+# df_validation = # uncomment if u have validation set
 df_test = pd.read_csv("data/test.csv")
 
 if train_languages != "all":
@@ -106,7 +106,7 @@ if use_additional:
 dataset = DatasetDict(
     {
         "train": Dataset.from_pandas(df_train, split="train"),
-        "validation": Dataset.from_pandas(df_train, split="validation"),
+        # "validation": Dataset.from_pandas(df_train, split="validation"), # uncomment if u have validation set
         "test": Dataset.from_pandas(df_test, split="test"),
     }
 )
