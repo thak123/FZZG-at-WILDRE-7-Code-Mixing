@@ -2,6 +2,12 @@
 
 ## Code
 - Convert the dataset into Alpaca dataset format using prepare.py
+```
+input,output,language,instruction
+"पहला एपिसोड मजबूरी में देखे थे, अब मजा आ रहा है।🤣😂😂🤣🤣",positive,hindi,Classify the given article as either positive or negative or neutral or mix sentiment.
+वाह मर्दे सारा धागा तोड़ दिए मर्दे,positive,hindi,Classify the given article as either positive or negative or neutral or mix sentiment.
+Ye humari bhasa h magahi❤️,positive,hindi,Classify the given article as either positive or negative or neutral or mix sentiment.
+```
 - Update the file names for train, test and (validation if any)
 - Train the model using train_7b.py
 - Predict/Eval using eval_7b.py
