@@ -34,7 +34,7 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 inputs = tokenizer(
 [
     alpaca_prompt.format(
-        "Classify the given article as either positive or negative or mix sentiment.", # instruction
+        "Classify the given article as either positive or negative or neutral or mix sentiment.", # instruction
         "mujhe aap pasand nahi ho", # input
         "", # output - leave this blank for generation!
     )
